@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- GFMirror custom colors -->
+    <color name="mirror_primary">#6366F1</color>
+    <color name="mirror_primary_variant">#4F46E5</color>
+    <color name="mirror_secondary">#EC4899</color>
+    <color name="mirror_secondary_variant">#DB2777</color>
+    <color name="mirror_background">#0F0F23</color>
+    <color name="mirror_surface">#1A1A2E</color>
+    <color name="mirror_error">#EF4444</color>
+    <color name="mirror_on_primary">#FFFFFF</color>
+    <color name="mirror_on_secondary">#FFFFFF</color>
+    <color name="mirror_on_background">#FFFFFF</color>
+    <color name="mirror_on_surface">#FFFFFF</color>
+    <color name="mirror_on_error">#FFFFFF</color>
+</resources>

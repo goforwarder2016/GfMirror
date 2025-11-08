@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GFMirror</string>
+    
+    <!-- Main Screen -->
+    <string name="main_title">GFMirror</string>
+    <string name="camera_preview_placeholder">Camera Preview\n(OpenGL Rendering)</string>
+    <string name="camera_initializing">Initializing Camera...</string>
+    <string name="select_effect">Select Effect:</string>
+    <string name="start_camera">Start Camera</string>
+    <string name="stop_camera">Stop Camera</string>
+    <string name="capture">Capture</string>
+    <string name="performance_info">Performance Info</string>
+    <string name="frame_rate">Frame Rate: %1$d FPS</string>
+    <string name="memory_usage">Memory: %1$d%%</string>
+    
+    <!-- Effects -->
+    <string name="effect_fisheye">Fisheye</string>
+    <string name="effect_barrel">Barrel</string>
+    <string name="effect_pincushion">Pincushion</string>
+    <string name="effect_whirlpool">Whirlpool</string>
+    <string name="effect_ripple">Ripple</string>
+    <string name="effect_slim_face">Slim Face</string>
+    <string name="effect_stretch">Stretch</string>
+    <string name="effect_distort">Distort</string>
+    <string name="effect_mirror">Mirror</string>
+    <string name="effect_custom">Custom</string>
+    <string name="effect_horizontal_stretch">Horizontal Stretch</string>
+    <string name="effect_vertical_stretch">Vertical Stretch</string>
+    <string name="effect_twist">Kaleidoscope</string>
+    <string name="effect_bulge">Bulge</string>
+    <string name="effect_wave">Wave</string>
+    
+    <!-- Settings -->
+    <string name="settings">Settings</string>
+    <string name="language">Language</string>
+    <string name="language_settings">Language Settings</string>
+    <string name="select_language">Select Language</string>
+    <string name="language_changed">Language changed successfully</string>
+    <string name="about">About</string>
+    <string name="version">Version: %1$s</string>
+    
+    <!-- Permissions -->
+    <string name="camera_permission_required">Camera permission is required to use this app</string>
+    <string name="storage_permission_required">Storage permission is required to save photos and videos</string>
+    <string name="permission_denied">Permission denied</string>
+    <string name="permission_granted">Permission granted</string>
+    
+    <!-- Error Messages -->
+    <string name="error_camera_init">Failed to initialize camera</string>
+    <string name="error_capture_failed">Failed to capture image</string>
+    <string name="error_recording_failed">Failed to start recording</string>
+    <string name="error_save_failed">Failed to save file</string>
+    
+    <!-- Success Messages -->
+    <string name="success_image_saved">Image saved successfully</string>
+    <string name="success_video_saved">Video saved successfully</string>
+    
+    <!-- Status Messages -->
+    <string name="capturing">Capturing...</string>
+    <string name="initializing_camera">Initializing Camera...</string>
+    
+    <!-- Common UI Text -->
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="close">Close</string>
+    <string name="effect_preview">Effect Preview</string>
+    <string name="available_effects">Available Effects:</string>
+    <string name="current_effect">Current Effect:</string>
+    <string name="camera_status">Camera Status:</string>
+    <string name="active">Active</string>
+    <string name="inactive">Inactive</string>
+    <string name="none">None</string>
+    <string name="switched_to">Switched to:</string>
+    <string name="show_original_preview">Show Original Preview</string>
+    <string name="hide_original_preview">Hide Original Preview</string>
+    <string name="switch_camera">Switch Camera</string>
+    <string name="switch_effect">Switch Effect</string>
+    <string name="front_camera">Front Camera</string>
+    <string name="back_camera">Back Camera</string>
+</resources>

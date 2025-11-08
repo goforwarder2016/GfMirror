@@ -1,0 +1,63 @@
+name: ❓ Q&A
+description: Ask questions about GFMirror
+title: "[Q&A] "
+labels: ["question", "help"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for your question! Please provide as much detail as possible to help us give you the best answer.
+
+  - type: textarea
+    id: question
+    attributes:
+      label: ❓ Question
+      description: What would you like to know?
+      placeholder: Ask your question about GFMirror here
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: 📂 Category
+      description: What category does your question fall under?
+      options:
+        - Installation & Setup
+        - Usage & Features
+        - Development & Contributing
+        - Performance & Optimization
+        - Troubleshooting
+        - General
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: 📝 Context
+      description: Provide additional context about your question
+      placeholder: What are you trying to achieve? What have you tried so far?
+
+  - type: textarea
+    id: device-info
+    attributes:
+      label: 📱 Device Information
+      description: If relevant, please provide device information
+      placeholder: |
+        - Device: [e.g. Samsung Galaxy S21]
+        - Android Version: [e.g. Android 12]
+        - App Version: [e.g. 1.0.0]
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: ✅ Checklist
+      description: Please confirm the following
+      options:
+        - label: I have searched existing discussions and issues
+          required: true
+        - label: I have provided a clear question
+          required: true
+        - label: I have provided relevant context
+          required: true

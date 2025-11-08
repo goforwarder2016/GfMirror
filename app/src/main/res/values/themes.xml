@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.GFMirror" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/mirror_primary</item>
+        <item name="colorPrimaryDark">@color/mirror_primary_variant</item>
+        <item name="colorAccent">@color/mirror_secondary</item>
+        <item name="android:colorBackground">@color/mirror_background</item>
+        <item name="android:statusBarColor">@color/mirror_primary</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+
+    <style name="Theme.GFMirror" parent="Base.Theme.GFMirror" />
+</resources>

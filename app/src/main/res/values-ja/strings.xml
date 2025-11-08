@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">おかしな鏡</string>
+    
+    <!-- Main Screen -->
+    <string name="main_title">おかしな鏡</string>
+    <string name="camera_preview_placeholder">カメラプレビュー\n(OpenGLレンダリング)</string>
+    <string name="camera_initializing">カメラを初期化しています...</string>
+    <string name="select_effect">エフェクト選択:</string>
+    <string name="start_camera">カメラ開始</string>
+    <string name="stop_camera">カメラ停止</string>
+    <string name="capture">撮影</string>
+    <string name="performance_info">パフォーマンス情報</string>
+    <string name="frame_rate">フレームレート: %1$d FPS</string>
+    <string name="memory_usage">メモリ: %1$d%%</string>
+
+    
+    <!-- Effects -->
+    <string name="effect_fisheye">魚眼</string>
+    <string name="effect_horizontal_stretch">水平ストレッチ</string>
+    <string name="effect_vertical_stretch">垂直ストレッチ</string>
+    <string name="effect_twist">万華鏡</string>
+    <string name="effect_bulge">膨らみ</string>
+    <string name="effect_custom">カスタム</string>
+    <string name="effect_wave">波</string>
+    <string name="effect_barrel">樽形</string>
+    <string name="effect_pincushion">ピンクッション</string>
+    <string name="effect_whirlpool">渦巻き</string>
+    <string name="effect_ripple">波紋</string>
+    <string name="effect_slim_face">顔を細く</string>
+    <string name="effect_stretch">ストレッチ</string>
+    <string name="effect_distort">歪み</string>
+    <string name="effect_mirror">ミラー</string>
+    
+    <!-- Settings -->
+    <string name="settings">設定</string>
+    <string name="language">言語</string>
+    <string name="language_settings">言語設定</string>
+    <string name="select_language">言語を選択</string>
+    <string name="language_changed">言語が正常に変更されました</string>
+    <string name="about">について</string>
+    <string name="version">バージョン: %1$s</string>
+    
+    <!-- Permissions -->
+    <string name="camera_permission_required">このアプリを使用するにはカメラ権限が必要です</string>
+    <string name="storage_permission_required">写真とビデオを保存するにはストレージ権限が必要です</string>
+    <string name="permission_denied">権限が拒否されました</string>
+    <string name="permission_granted">権限が付与されました</string>
+    
+    <!-- Error Messages -->
+    <string name="error_camera_init">カメラの初期化に失敗しました</string>
+    <string name="error_capture_failed">撮影に失敗しました</string>
+    <string name="error_recording_failed">録画に失敗しました</string>
+    <string name="error_save_failed">ファイルの保存に失敗しました</string>
+    
+    <!-- Success Messages -->
+    <string name="success_image_saved">画像の保存に成功しました</string>
+    <string name="success_video_saved">ビデオの保存に成功しました</string>
+    
+    <!-- Status Messages -->
+    <string name="capturing">撮影中...</string>
+    <string name="initializing_camera">カメラ初期化中...</string>
+    
+    <!-- Common UI Text -->
+    <string name="ok">OK</string>
+    <string name="cancel">キャンセル</string>
+    <string name="close">閉じる</string>
+    <string name="effect_preview">エフェクトプレビュー</string>
+    <string name="available_effects">利用可能なエフェクト：</string>
+    <string name="current_effect">現在のエフェクト：</string>
+    <string name="camera_status">カメラ状態：</string>
+    <string name="active">アクティブ</string>
+    <string name="inactive">非アクティブ</string>
+    <string name="none">なし</string>
+    <string name="switched_to">切り替え先：</string>
+    <string name="show_original_preview">元のプレビューを表示</string>
+    <string name="hide_original_preview">元のプレビューを非表示</string>
+    <string name="switch_camera">カメラ切り替え</string>
+    <string name="switch_effect">エフェクト切り替え</string>
+    <string name="front_camera">フロントカメラ</string>
+    <string name="back_camera">バックカメラ</string>
+</resources>

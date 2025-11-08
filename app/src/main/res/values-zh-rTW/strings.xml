@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">哈哈鏡</string>
+    
+    <!-- Main Screen -->
+    <string name="main_title">哈哈鏡</string>
+    <string name="camera_preview_placeholder">攝影機預覽\n(OpenGL渲染)</string>
+    <string name="camera_initializing">正在初始化相機...</string>
+    <string name="select_effect">選擇效果：</string>
+    <string name="start_camera">開啟攝影機</string>
+    <string name="stop_camera">關閉攝影機</string>
+    <string name="capture">拍照</string>
+    <string name="performance_info">效能資訊</string>
+    <string name="frame_rate">幀率：%1$d FPS</string>
+    <string name="memory_usage">記憶體：%1$d%%</string>
+    
+    <!-- Effects -->
+    <string name="effect_fisheye">魚眼</string>
+    <string name="effect_horizontal_stretch">水平拉伸</string>
+    <string name="effect_vertical_stretch">垂直拉伸</string>
+    <string name="effect_twist">萬花筒</string>
+    <string name="effect_bulge">膨脹</string>
+    <string name="effect_custom">自訂</string>
+    <string name="effect_wave">波浪</string>
+    <string name="effect_barrel">桶形</string>
+    <string name="effect_pincushion">枕形</string>
+    <string name="effect_whirlpool">漩渦</string>
+    <string name="effect_ripple">波紋</string>
+    <string name="effect_slim_face">瘦臉</string>
+    <string name="effect_stretch">拉伸</string>
+    <string name="effect_distort">扭曲</string>
+    <string name="effect_mirror">鏡像</string>
+    
+    <!-- Settings -->
+    <string name="settings">設定</string>
+    <string name="language">語言</string>
+    <string name="language_settings">語言設定</string>
+    <string name="select_language">選擇語言</string>
+    <string name="language_changed">語言切換成功</string>
+    <string name="about">關於</string>
+    <string name="version">版本：%1$s</string>
+    
+    <!-- Permissions -->
+    <string name="camera_permission_required">使用此應用程式需要攝影機權限</string>
+    <string name="storage_permission_required">儲存照片和影片需要儲存權限</string>
+    <string name="permission_denied">權限被拒絕</string>
+    <string name="permission_granted">權限已授予</string>
+    
+    <!-- Error Messages -->
+    <string name="error_camera_init">攝影機初始化失敗</string>
+    <string name="error_capture_failed">拍照失敗</string>
+    <string name="error_recording_failed">錄製失敗</string>
+    <string name="error_save_failed">儲存檔案失敗</string>
+    
+    <!-- Success Messages -->
+    <string name="success_image_saved">圖片儲存成功</string>
+    <string name="success_video_saved">影片儲存成功</string>
+    
+    <!-- Status Messages -->
+    <string name="capturing">拍照中...</string>
+    <string name="initializing_camera">正在初始化攝影機...</string>
+    
+    <!-- Common UI Text -->
+    <string name="ok">確定</string>
+    <string name="cancel">取消</string>
+    <string name="close">關閉</string>
+    <string name="effect_preview">效果預覽</string>
+    <string name="available_effects">可用效果：</string>
+    <string name="current_effect">當前效果：</string>
+    <string name="camera_status">攝影機狀態：</string>
+    <string name="active">激活</string>
+    <string name="inactive">未激活</string>
+    <string name="none">無</string>
+    <string name="switched_to">切換到：</string>
+    <string name="show_original_preview">顯示原始預覽</string>
+    <string name="hide_original_preview">隱藏原始預覽</string>
+    <string name="switch_camera">切換攝影機</string>
+    <string name="switch_effect">切換效果</string>
+    <string name="front_camera">前置攝影機</string>
+    <string name="back_camera">後置攝影機</string>
+</resources>
